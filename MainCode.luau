@@ -1,6 +1,6 @@
 debug.print("Hello world!")
 
-if not plugin.ExportingAllowed then
+if not plugin.ExportsAllowed then
     plugin.Stop:Fire()
 end
 
